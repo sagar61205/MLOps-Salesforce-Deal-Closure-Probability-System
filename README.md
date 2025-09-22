@@ -1,4 +1,4 @@
-<h1 align = "center">Salesforce Deal-Closure Probability</h1>
+<h1 align = "center">Salesforce Lead-Closure Probability</h1>
 
 <h3 align='center'>80% reduction in forecast error and delivered 12 months advanced signals: model 32% vs. rep 40% with actual 30%, thereby reducing the error significantly as compared to manual sales-rep entered confidence values.</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
 
