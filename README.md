@@ -19,15 +19,17 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 
 <h4>Business Impact:</h4>
 <ul>
-<li>Forecast bias reduction(80%): Reduced absolute forecast error from 10 percentage points (rep 40% vs. actual 30%) to 2 percentage points (model 32% vs. actual 30%) — an 80% error reduction.</li>
+<li>Forecast bias reduction(80%): Reduced absolute forecast error from 10 percentage points (rep 41% vs. actual 31%) to 2 percentage points (model 32% vs. actual 30%) — an 80% error reduction.</li>
 <li>Delivered 5 times smaller error than reps (2 pp vs. 10 pp), materially tightening forecast accuracy.</li>
 <li>Early signal advantage: 10-months earlier prediction than the typical 1–2 month notice from reps, enabling earlier sales decisions, territory shifts, and resource planning.</li>
-<li>Revenue-based decision making using an end-to-end deployed solution on GCP using Vertex AI(Docker,Harbor,Nitrodx pipeline and AIrflow DAGs).</li>
+<li>Revenue-based decision making using an end-to-end deployed solution on GCP using Vertex AI(Docker and AIrflow DAGs).</li>
 </ul>
+
+<h5>Reps vs Model vs actual probabilities/h5>
+<img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" />
 
 <h5>Forecast Error comparision</h5>
 <img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" />
-
 
 <h5>Key Objectives:</h5>
 <ul><li>Build an objective lead-closing predictor driven by stage‑sequence behavior rather than rep confidence fields.</li>
@@ -44,33 +46,25 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 
 <h4>📈 Key Insights Delivered:</h4>
                            
-<h5>Feature Importance:</h5>
+<h5>Validation regimes and Model performance</h5>
 <ul>
-<li>Identified the most critical clinical markers for accurate thyroid disorder classification.</li>   
-<li>Discovered non-linear relationships between biomarkers that human analysis might overlook.</li>
+<li>Strict test/validation (complete sequences): Probability accuracy 86%, Number of unique leads ~6000.</li>   
+<li>All opportunities (noisy/late/partial included): Probability accuracy 77%, Number of unique leads ~100,000.</li>
+<li>FY23–present: Model ~33% vs. Sales Reps ~41% vs. Actual ~31% Closed leads</li> 
+<li>FY24: model ~35% vs. reps ~46% vs. actual ~44% Closed leads.</li>   
+<li>FY25: model ~34% vs. reps ~42% vs. actual ~36% Closed leads.</li>   
 </ul>
 
-<h5>Model Performance:</h5>
-<ul>
-<li>Achieved 90% accuracy alongwith ROC_AUC score of 0.9 using Random Forest, KNN and XGBoost with selected features.</li><br>
-<li>Maintained robust performance across different patient demographics and subtypes.</li><br>
-</ul>
 
 <h4>🛠️ Technical Stack:</h4>
 
-<ul><li>Data Processing & Analysis:Python, Pandas, NumPy, Scikit-learn, Statsmodels</li>
-<li>Machine Learning: Hidden Markov Model</li>
+<ul><li>Data Processing & Analysis:Python, Pandas, NumPy</li>
+<li>Machine Learning: Hidden Markov Model,hmmlearn</li>
 <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
 <li>Deployment: Docker, Cloud-GCP:Vertex AI, Airflow DAGs </li>
 <li>Tools: Git, Jupyter Notebook, VS Code</li>
 </ul>
 
-<h5>Prediction app(Screenshot):</h5>
-<img width="620" height="220" alt="Image" src="https://github.com/user-attachments/assets/c6e68e13-46c8-4dad-b08d-74b5af86326d" />
-
-<h5>Prediction output:</h5>
-<img width="306" height="189" alt="Image" src="https://github.com/user-attachments/assets/152d7b1b-9107-40a0-9c37-261b249f0191" />
-
 <h4>⚠️Disclaimer</h4>
 
-This project serves as a Proof of Concept (POC). This project demonstrates how machine learning classification is applied in medical practice and the potential impact it can generate.
+This case study is sanitized for confidentiality; no client identifiers, schemas, or proprietary visuals are disclosed, and metrics are reported at aggregate/cohort levels only.
