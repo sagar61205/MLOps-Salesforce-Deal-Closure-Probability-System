@@ -21,6 +21,14 @@ analyzes stage progressions and opportunity signals to predict lead closure mont
 giving sales leaders a calibrated, reality‑aligned confidence score for planning and action.
 <br>
 
+<h4>Business Impact:</h4>
+<ul>
+<li>Forecast bias reduction(80%): Reduced absolute forecast error from 10 percentage points (rep 40% vs. actual 30%) to 2 percentage points (model 32% vs. actual 30%) — an 80% error reduction.</li>
+<li>Delivered 5 times smaller error than reps (2 pp vs. 10 pp), materially tightening forecast accuracy.</li>
+<li>Early signal advantage: 10-months earlier prediction than the typical 1–2 month notice from reps, enabling earlier sales decisions, territory shifts, and resource planning.</li>
+</ul>
+
+
 <h5>Key Objectives:</h5>
 <ul><li>Build an objective lead-closing predictor driven by stage‑sequence behavior rather than rep confidence fields.</li>
 <li>Enforce strict sequence filtration (start at 'State 1' or 'State 2'; terminal labels lost/closed) and report results on both strict validation and all leads.</li>
@@ -29,13 +37,6 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 <li>Compare model probabilities vs. rep confidence across fiscal years and ship to production on GCP Vertex AI.</li>
 </ul>
 
-<h4>Business Impact:</h4>
-<ul>
-<li>Forecast bias reduction(80%): Reduced absolute forecast error from 10 percentage points (rep 40% vs. actual 30%) to 2 percentage points (model 32% vs. actual 30%) — an 80% error reduction.</li>
-<li>Early signal advantage: 10-months earlier prediction than the typical 1–2 month notice from reps, enabling earlier sales decisions, territory shifts, and resource planning.</li>
-<li>Enhanced doctor Confidence through AI-powered decision support.</li>
-<li>Explainable Predictions providing insights into contributing factors for each diagnosis.</li>
-</ul>
 
 
 <h4>🏗️ Technical Architecture:</h4>
