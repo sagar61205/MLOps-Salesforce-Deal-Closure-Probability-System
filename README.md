@@ -25,10 +25,10 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 <li>Revenue-based decision making using an end-to-end deployed solution on GCP using Vertex AI(Docker and AIrflow DAGs).</li>
 </ul>
 
-<h4>Reps vs Model vs actual probabilities</h4>
+<h4>Reps vs Model vs actual probabilities:</h4>
 <img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" />
 
-<h4>Forecast Error comparision</h4>
+<h4>Forecast Error comparision:</h4>
 <img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" />
 
 <h5>Key Objectives:</h5>
@@ -42,7 +42,7 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 
 
 <h4>🏗️ Technical Architecture:</h4>
-<img width="400" height="600" alt="Image" src="https://github.com/user-attachments/assets/ffe27bfc-7283-4a33-aff4-8ab6e03fef98" />
+<img width="820" height="620" alt="Image" src="https://github.com/user-attachments/assets/1736cd8e-3166-4130-a721-5fb2a4c73d4c" />
 
 <h4>📈 Key Insights Delivered:</h4>
                            
