@@ -1,6 +1,6 @@
 <h1 align = "center">MLOps‑Driven Salesforce Lead-Closure Forecast System </h1>
 
-<h3 align='center'>80% reduction in forecast error and delivered 10-months advanced signals as compared to manually entered probabilities by sales representativesfor over 100,000 unique leads over a 3-4 year period</h3><p align="center"> <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/">View the Case Study</a> • <a href="https://github.com/sagar61205/MLOps-Salesforce-Deal-Closure-Probability-System">View GitHub</a> </p>
+<h3 align='center'>80% reduction in forecast error and delivered 12-months advanced signals as compared to manually entered probabilities by sales representativesfor over 100,000 unique leads over a 3-4 year period</h3><p align="center"> <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/">View the Case Study</a> • <a href="https://github.com/sagar61205/MLOps-Salesforce-Deal-Closure-Probability-System">View GitHub</a> </p>
 
 <img width="1200" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
 <h4>📊 The Business Problem:</h4>
@@ -20,7 +20,7 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 <ul>
 <li>Forecast bias reduction(80%): Reduced absolute forecast error from 10 percentage points (rep 41% vs. actual 31%) to 2 percentage points (model 32% vs. actual 30%) — an 80% error reduction.</li>
 <li>Delivered 5 times smaller error than reps (2 pp vs. 10 pp), materially tightening forecast accuracy.</li>
-<li>Early signal advantage: 10-months earlier prediction than the typical 1–2 month notice from reps, enabling earlier sales decisions, territory shifts, and resource planning.</li>
+<li>Early signal advantage: 12-months earlier prediction than the typical 1–2 month notice from reps, enabling earlier sales decisions, territory shifts, and resource planning.</li>
 <li>Revenue-based decision making using an end-to-end deployed solution on GCP using Vertex AI(Docker and AIrflow DAGs).</li>
 </ul>
 
