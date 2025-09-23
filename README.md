@@ -5,7 +5,7 @@
 <img width="1200" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
 <h4>📊 The Business Problem:</h4>
 
-<ul><li>Rep-entered confidence was about 41–44%, while actual closied leads landed around 30–32%, which led to planning gaps and surprise revenue misses across fiscal periods.</li>
+<ul><li>Rep-entered confidence was about 41–44%, while actual closed leads landed around 30–32%, which led to planning gaps and surprise revenue misses across fiscal periods.</li>
 <li>Because estimates were manual, pipeline reviews were inconsistent, making quota setting, territory planning, and resource allocation harder quarter to quarter.</li>
 <li>The directive was to replace subjective guesses with calibrated, sequence‑aware probabilities that reflect how deals actually move through sales stages.</li>
 <li>Reduced forecast error by 80% and delivered 12 months advanced signals: model 32% prediction for closed deals and the actual closing was between 30-32%</li>  
