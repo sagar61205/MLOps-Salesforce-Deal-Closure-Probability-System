@@ -2,7 +2,7 @@
 
 <h3 align='center'>80% reduction in forecast error and delivered 10-months advanced signals as compared to manually entered probabilities by sales representatives</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
 
-<img width="1000" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
+<img width="1200" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
 <h4>📊 The Business Problem:</h4>
 
 <ul><li>Rep-entered confidence was about 41–44%, while actual closied leads landed around 30–32%, which led to planning gaps and surprise revenue misses across fiscal periods.</li>
