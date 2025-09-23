@@ -2,7 +2,7 @@
 
 <h3 align='center'>80% reduction in forecast error and delivered 10-months advanced signals as compared to manually entered probabilities by sales representatives</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
 
-<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
+<img width="1000" height="600" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
 <h4>📊 The Business Problem:</h4>
 
 <ul><li>Rep-entered confidence was about 41–44%, while actual closied leads landed around 30–32%, which led to planning gaps and surprise revenue misses across fiscal periods.</li>
@@ -26,10 +26,10 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 </ul>
 
 <h4>Reps vs Model vs actual probabilities:</h4>
-<img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" />
+<img width="520" height="320" alt="Image" src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" />
 
 <h4>Forecast Error comparision:</h4>
-<img width="620" height="420" alt="Image" src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" />
+<img width="520" height="320" alt="Image" src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" />
 
 <h5>Key Objectives:</h5>
 <ul><li>Build an objective lead-closing predictor driven by stage‑sequence behavior rather than rep confidence fields.</li>
