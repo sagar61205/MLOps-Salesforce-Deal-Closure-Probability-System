@@ -30,6 +30,18 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 <h4>Forecast Error comparision:</h4>
 <img width="520" height="320" alt="Image" src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" />
 
+<h5>Major Challenge: Non-Linear and Variable Sales Cycles:</h5>
+<ul>
+<li>Sales deals didn't follow a straight line. They often jumped back and forth between stages or moved at wildly different speeds. This messy data made it hard for the model to learn what a typical path to "win" or "loss" looked like.</li>  
+</ul>
+
+<h5>Solution: Strategic Data Filtration and a Focused Learning Objective:</h5>
+<ul>
+<li>Curated Training Data: Instead of training the model on all available opportunities, we filtered the dataset to include only those that demonstrated a clear, committed progression.</li>
+<li>Clarified Learning Goal: This filtration allowed the Hidden Markov Model (HMM) to focus on learning the essential transition probabilities between stages that ahighly indicate the final outcome.</li>  
+</ul>
+
+
 <h5>Key Objectives:</h5>
 <ul><li>Build an objective lead-closing predictor driven by stage‑sequence behavior rather than rep confidence fields.</li>
 <li>Enforce strict sequence filtration (start at 'State 1' or 'State 2'; terminal labels lost/closed) and report results on both strict validation and all leads.</li>
