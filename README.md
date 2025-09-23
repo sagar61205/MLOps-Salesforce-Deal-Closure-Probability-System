@@ -1,6 +1,6 @@
 <h1 align = "center">MLOps‑Driven Salesforce Lead-Closure Forecast System </h1>
 
-<h3 align='center'>80% reduction in forecast error and delivered 10-months advanced signals as compared to manually entered probabilities by sales representatives</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
+<h3 align='center'>80% reduction in forecast error and delivered 10-months advanced signals as compared to manually entered probabilities by sales representativesfor over 100,000 unique leads over a 3-4 year period</h3><p align="center"> <a href="https://sagar61205.github.io/Thyroid-detection/">View the Case Study</a> • <a href="https://github.com/sagar61205/Thyroid-detection">View the Code</a> </p>
 
 <img width="1200" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
 <h4>📊 The Business Problem:</h4>
@@ -8,7 +8,6 @@
 <ul><li>Rep-entered confidence was about 41–44%, while actual closed leads landed around 30–32%, which led to planning gaps and surprise revenue misses across fiscal periods.</li>
 <li>Because estimates were manual, pipeline reviews were inconsistent, making quota setting, territory planning, and resource allocation harder quarter to quarter.</li>
 <li>The directive was to replace subjective guesses with calibrated, sequence‑aware probabilities that reflect how deals actually move through sales stages.</li>
-<li>Reduced forecast error by 80% and delivered 12 months advanced signals: model 32% prediction for closed deals and the actual closing was between 30-32%</li>  
 </ul>
 
 <h4>📊 My role and the solution:</h4>
