@@ -37,7 +37,7 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 
 <h5>Solution: Strategic Data Filtration and a Focused Learning Objective:</h5>
 <ul>
-<li>Curated Training Data: Instead of training the model on all available opportunities, we filtered the dataset to include only those that demonstrated a clear, committed progression.</li>
+<li>Curated Training Data: Instead of training the model on all available opportunities, we filtered the dataset to include only those that demonstrated a clear progression pattern.</li>
 <li>Clarified Learning Goal: This filtration allowed the Hidden Markov Model (HMM) to focus on learning the essential transition probabilities between stages that ahighly indicate the final outcome.</li>  
 </ul>
 
