@@ -5,15 +5,18 @@
 <img width="1200" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
 <h4>📊 The Business Problem:</h4>
 
-<ul><li>Rep-entered confidence was about 41–44%, while actual closed leads landed around 30–32%, which led to planning gaps and surprise revenue misses across fiscal periods.</li>
+<ul><li>    There was a significant gap between sales confidence (41-44%) and actual performance (30-32%), leading to unreliable forecasts and quarterly revenue surprises.</li>
 <li>Because estimates were manual, pipeline reviews were inconsistent, making quota setting, territory planning, and resource allocation harder quarter to quarter.</li>
 <li>The directive was to replace subjective guesses with calibrated, sequence‑aware probabilities that reflect how deals actually move through sales stages.</li>
 </ul>
 
 <h4>📊 My role and the solution:</h4>
-As the Data Scientist on this project, the mandate was to replace subjective, late-stage rep estimates with an objective, sequence‑aware forecasting system. Built an end‑to‑end ML pipeline that 
+<ul>
+<li>As the Data Scientist on this project, the mandate was to replace subjective, late-stage rep estimates with an objective, sequence‑aware forecasting system.</li>
+<li>Built an end‑to‑end ML pipeline that 
 analyzes stage progressions and opportunity signals to predict lead closure months earlier, 
-giving sales leaders a calibrated, reality‑aligned confidence score for planning and action.
+giving sales leaders a calibrated, reality‑aligned confidence score for planning and action.</li>
+</ul>  
 <br>
 
 <h4>Business Impact:</h4>
