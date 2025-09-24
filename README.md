@@ -1,84 +1,123 @@
-<h1 align = "center">MLOps‑Driven Salesforce Lead-Closure Forecast System </h1>
+<h1 align="center">MLOps‑Driven Salesforce Lead-Closure Forecast System</h1>
 
-<h3 align='center'>80% reduction in forecast error and delivered 12-months advanced signals as compared to manually entered probabilities by sales representativesfor over 100,000 unique leads over a 3-4 year period</h3><p align="center"> <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/">View the Case Study</a> • <a href="https://github.com/sagar61205/MLOps-Salesforce-Deal-Closure-Probability-System">View GitHub</a> </p>
+<h3 align="center">80% reduction in forecast error with 12-month advanced signals for 100,000+ leads</h3>
 
-<img width="1200" height="400" alt="Image" src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" />
-<h4>📊 The Business Problem:</h4>
+<p align="center">
+  <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/">View Case Study</a> • 
+  <a href="https://github.com/sagar61205/MLOps-Salesforce-Deal-Closure-Probability-System">View GitHub</a>
+</p>
 
-<ul><li>    There was a significant gap between sales confidence (41-44%) and actual performance (30-32%), leading to unreliable forecasts and quarterly revenue surprises.</li>
-<li>Because estimates were manual, pipeline reviews were inconsistent, making quota setting, territory planning, and resource allocation harder quarter to quarter.</li>
-<li>The directive was to replace subjective guesses with calibrated, sequence‑aware probabilities that reflect how deals actually move through sales stages.</li>
-</ul>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" 
+       alt="Sales Forecast System Overview" 
+       style="max-width: 100%; height: auto; border: 1px solid #e1e4e8; border-radius: 8px; padding: 10px; background: white;"/>
+</div>
 
-<h4>📊 My role and the solution:</h4>
+## 📊 The Business Problem
+
 <ul>
-<li>As the Data Scientist on this project, the mandate was to replace subjective, late-stage rep estimates with an objective, sequence‑aware forecasting system.</li>
-<li>Built an end‑to‑end ML pipeline that 
-analyzes stage progressions and opportunity signals to predict lead closure months earlier, 
-giving sales leaders a calibrated, reality‑aligned confidence score for planning and action.</li>
-</ul>  
-<br>
+  <li><strong>Forecast Gap:</strong> Sales confidence (41-44%) vs. actual performance (30-32%) created unreliable forecasts</li>
+  <li><strong>Manual Inconsistency:</strong> Pipeline reviews were inconsistent, hurting quota setting and resource allocation</li>
+  <li><strong>Solution Goal:</strong> Replace subjective guesses with calibrated, sequence-aware probabilities</li>
+</ul>
 
-<h4>Business Impact:</h4>
+## 🎯 My Role & Solution
+
 <ul>
-<li>Forecast bias reduction(80%): Reduced absolute forecast error from 10 percentage points (rep 41% vs. actual 31%) to 2 percentage points (model 32% vs. actual 30%) — an 80% error reduction.</li>
-<li>Delivered 5 times smaller error than reps (2 pp vs. 10 pp), materially tightening forecast accuracy.</li>
-<li>Early signal advantage: 12-months earlier prediction than the typical 1–2 month notice from reps, enabling earlier sales decisions, territory shifts, and resource planning.</li>
-<li>Revenue-based decision making using an end-to-end deployed solution on GCP using Vertex AI(Docker and AIrflow DAGs).</li>
+  <li><strong>Lead Data Scientist:</strong> Replaced subjective estimates with objective forecasting system</li>
+  <li><strong>End-to-End Pipeline:</strong> Built ML system analyzing stage progressions for early closure predictions</li>
+  <li><strong>Production Deployment:</strong> GCP Vertex AI with Docker and Airflow DAGs</li>
 </ul>
 
-<h4>Reps vs Model vs actual probabilities:</h4>
-<img width="520" height="320" alt="Image" src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" />
+## 💰 Business Impact
 
-<h4>Forecast Error comparision:</h4>
-<img width="520" height="320" alt="Image" src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" />
-
-<h5>Major Challenge: Non-Linear and Variable Sales Cycles:</h5>
 <ul>
-<li>Sales deals didn't follow a straight line. They often jumped back and forth between stages or moved at wildly different speeds. This messy data made it hard for the model to learn what a typical path to "win" or "loss" looked like.</li>  
+  <li><strong>80% Forecast Error Reduction:</strong> 10pp → 2pp error (rep 41% vs. actual 31% → model 32% vs. actual 30%)</li>
+  <li><strong>5x Smaller Error:</strong> 2pp vs. 10pp compared to sales reps</li>
+  <li><strong>12-Month Early Signals:</strong> Enabled earlier sales decisions and resource planning</li>
+  <li><strong>Production System:</strong> End-to-end deployment on GCP Vertex AI</li>
 </ul>
 
-<h5>Solution: Strategic Data Filtration and a Focused Learning Objective:</h5>
+## 📊 Performance Comparison
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" 
+       alt="Reps vs Model vs Actual Probabilities" 
+       style="max-width: 100%; height: auto; border: 1px solid #e1e4e8; border-radius: 8px; padding: 10px; background: white;"/>
+</div>
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" 
+       alt="Forecast Error Comparison" 
+       style="max-width: 100%; height: auto; border: 1px solid #e1e4e8; border-radius: 8px; padding: 10px; background: white;"/>
+</div>
+
+## 🚩 Major Challenge: Non-Linear Sales Cycles
+
 <ul>
-<li>Curated Training Data: Instead of training the model on all available opportunities, we filtered the dataset to include only those that demonstrated a clear progression pattern.</li>
-<li>Clarified Learning Goal: This filtration allowed the Hidden Markov Model (HMM) to focus on learning the essential transition probabilities between stages that ahighly indicate the final outcome.</li>  
+  <li><strong>Erratic Progression:</strong> Deals jumped back/forth between stages unpredictably</li>
+  <li><strong>Variable Velocity:</strong> Wildly different speeds between opportunities</li>
+  <li><strong>Data Quality:</strong> Messy sequences made pattern recognition difficult</li>
 </ul>
 
+## 💡 Solution: Strategic Data Approach
 
-<h5>Key Objectives:</h5>
-<ul><li>Build an objective lead-closing predictor driven by stage‑sequence behavior rather than rep confidence fields.</li>
-<li>Enforce strict sequence filtration (start at 'State 1' or 'State 2'; terminal labels lost/closed) and report results on both strict validation and all leads.</li>
-<li>Refactor research code into 5 modules plus main.py, add Dockerfile, and make tasks CLI‑driven for train/evaluate/score for MLOps integration.</li>
-<li>Orchestrate training and batch scoring with Airflow (Nitro dx template) using Harbor‑hosted images and GCP storage.</li>
-<li>Compare model probabilities vs. rep confidence across fiscal years and ship to production on GCP Vertex AI.</li>
-<li>Build an end-to-end MLOps pipeline on GCP (Vertex AI, Docker, Airflow) to operationalize sequence‑aware win‑probability forecasts, replacing subjective estimates with calibrated, reality‑aligned signals.</li>  
-</ul>
-
-
-<h4>🏗️ Technical Architecture:</h4>
-<img width="1200" height="800" alt="Image" src="https://github.com/user-attachments/assets/0f732616-f5c7-416b-972c-83cbff815eca" />
-
-<h4>📈 Key Insights Delivered:</h4>
-                           
-<h5>Validation regimes and Model performance</h5>
 <ul>
-<li>Strict test/validation (complete sequences): Probability accuracy 86%, Number of unique leads ~6000.</li>   
-<li>All opportunities (noisy/late/partial included): Probability accuracy 77%, Number of unique leads ~100,000.</li>
-<li>FY23–present: Model ~33% vs. Sales Reps ~41% vs. Actual ~31% Closed leads</li> 
-<li>FY24: model ~35% vs. reps ~46% vs. actual ~44% Closed leads.</li>   
-<li>FY25: model ~34% vs. reps ~42% vs. actual ~36% Closed leads.</li>   
+  <li><strong>Curated Training Data:</strong> Filtered for clear progression patterns only</li>
+  <li><strong>Focused Learning:</strong> HMM trained on essential stage transition probabilities</li>
+  <li><strong>Validation Rigor:</strong> Separate testing on clean vs. noisy data</li>
 </ul>
 
+## 🎯 Key Objectives Achieved
 
-<h4>🛠️ Technical Stack:</h4>
-
-<ul><li>Data Processing & Analysis:Python, Pandas, NumPy</li>
-<li>Machine Learning: Hidden Markov Model,hmmlearn</li>
-<li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
-<li>Deployment: Docker, Cloud-GCP:Vertex AI, Airflow DAGs </li>
-<li>Tools: Git, Jupyter Notebook, VS Code</li>
+<ul>
+  <li>✅ Objective lead-closing predictor using stage-sequence behavior</li>
+  <li>✅ Strict sequence filtration with dual validation regimes</li>
+  <li>✅ Modular codebase with CLI-driven train/evaluate/score</li>
+  <li>✅ Airflow orchestration with Docker on GCP</li>
+  <li>✅ Production deployment on Vertex AI</li>
+  <li>✅ End-to-end MLOps pipeline operationalization</li>
 </ul>
 
-<h4>⚠️Disclaimer</h4>
+## 🏗️ Technical Architecture
 
-This case study is sanitized for confidentiality; no client identifiers, schemas, or proprietary visuals are disclosed, and metrics are reported at aggregate/cohort levels only.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0f732616-f5c7-416b-972c-83cbff815eca" 
+       alt="Technical Architecture Diagram" 
+       style="max-width: 100%; height: auto; border: 1px solid #e1e4e8; border-radius: 8px; padding: 10px; background: white;"/>
+</div>
+
+## 📈 Model Performance Results
+
+### Validation Metrics
+<ul>
+  <li><strong>Strict Validation (6,000 leads):</strong> 86% probability accuracy</li>
+  <li><strong>All Opportunities (100,000 leads):</strong> 77% probability accuracy</li>
+</ul>
+
+### Fiscal Year Performance
+<ul>
+  <li><strong>FY23-Present:</strong> Model 33% vs. Reps 41% vs. Actual 31%</li>
+  <li><strong>FY24:</strong> Model 35% vs. Reps 46% vs. Actual 44%</li>
+  <li><strong>FY25:</strong> Model 34% vs. Reps 42% vs. Actual 36%</li>
+</ul>
+
+## 🛠️ Technical Stack
+
+<ul>
+  <li><strong>Data Processing:</strong> Python, Pandas, NumPy</li>
+  <li><strong>Machine Learning:</strong> Hidden Markov Model (hmmlearn)</li>
+  <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
+  <li><strong>Deployment:</strong> Docker, GCP Vertex AI, Airflow DAGs</li>
+  <li><strong>Tools:</strong> Git, Jupyter Notebook, VS Code</li>
+</ul>
+
+## ⚠️ Disclaimer
+
+This case study is sanitized for confidentiality; no client identifiers, schemas, or proprietary visuals are disclosed. Metrics are reported at aggregate levels only.
+
+---
+
+<div align="center">
+  <strong>Open to discussing how this approach can drive forecasting accuracy in your organization</strong>
+</div>
