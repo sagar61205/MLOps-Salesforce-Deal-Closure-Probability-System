@@ -56,7 +56,7 @@ giving sales leaders a calibrated, reality‑aligned confidence score for planni
 
 
 <h4>🏗️ Technical Architecture:</h4>
-<img width="820" height="620" alt="Image" src="https://github.com/user-attachments/assets/1736cd8e-3166-4130-a721-5fb2a4c73d4c" />
+<img width="820" height="620" alt="Image" src="https://github.com/user-attachments/assets/0f732616-f5c7-416b-972c-83cbff815eca" />
 
 <h4>📈 Key Insights Delivered:</h4>
                            
