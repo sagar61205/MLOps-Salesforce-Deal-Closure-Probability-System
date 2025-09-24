@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MLOps-Driven Salesforce Lead-Closure Forecast System</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+    }
+
+    h1, h2, h3, h4 {
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      margin-bottom: 0.5em;
+    }
+
+    h3 {
+      text-align: center;
+      font-weight: 400;
+      font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+      color: #555;
+      margin-bottom: 1.5em;
+    }
+
+    p.center, div.center {
+      text-align: center;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #e1e4e8;
+      border-radius: 8px;
+      padding: 8px;
+      background: white;
+      margin: 15px 0;
+    }
+
+    ul {
+      margin: 1em 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: #111;
+    }
+
+    .section {
+      margin: 2em 0;
+    }
+
+    .section h2 {
+      margin-bottom: 0.8em;
+      border-left: 5px solid #0066cc;
+      padding-left: 10px;
+      font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+    }
+
+    .note {
+      background: #f8f9fa;
+      padding: 15px;
+      border-left: 4px solid #0066cc;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 20px;
+      margin-top: 30px;
+      border-top: 1px solid #ddd;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      body {
+        font-size: 0.95rem;
+      }
+
+      .container {
+        padding: 15px;
+      }
+
+      img {
+        padding: 5px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      .section h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>MLOps-Driven Salesforce Lead-Closure Forecast System</h1>
+    <h3>80% reduction in forecast error with 12-month advanced signals for 100,000+ leads</h3>
+
+    <p class="center">
+      <a href="https://sagar61205.github.io/MLOps-Salesforce-Deal-Closure-Probability-System/">View Case Study</a> • 
+      <a href="https://github.com/sagar61205/MLOps-Salesforce-Deal-Closure-Probability-System">View GitHub</a>
+    </p>
+
+    <div class="center">
+      <img src="https://github.com/user-attachments/assets/5eaece22-4092-4ace-8d7d-308ad06b696a" 
+           alt="Sales Forecast System Overview"/>
+    </div>
+
+    <div class="section">
+      <h2>📊 The Business Problem</h2>
+      <ul>
+        <li><strong>Forecast Gap:</strong> Sales confidence (41-44%) vs. actual performance (30-32%) created unreliable forecasts</li>
+        <li><strong>Manual Inconsistency:</strong> Pipeline reviews were inconsistent, hurting quota setting and resource allocation</li>
+        <li><strong>Solution Goal:</strong> Replace subjective guesses with calibrated, sequence-aware probabilities</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🎯 My Role & Solution</h2>
+      <ul>
+        <li><strong>Lead Data Scientist:</strong> Replaced subjective estimates with objective forecasting system</li>
+        <li><strong>End-to-End Pipeline:</strong> Built ML system analyzing stage progressions for early closure predictions</li>
+        <li><strong>Production Deployment:</strong> GCP Vertex AI with Docker and Airflow DAGs</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💰 Business Impact</h2>
+      <ul>
+        <li><strong>80% Forecast Error Reduction:</strong> 10pp → 2pp error (rep 41% vs. actual 31% → model 32% vs. actual 30%)</li>
+        <li><strong>5x Smaller Error:</strong> 2pp vs. 10pp compared to sales reps</li>
+        <li><strong>12-Month Early Signals:</strong> Enabled earlier sales decisions and resource planning</li>
+        <li><strong>Production System:</strong> End-to-end deployment on GCP Vertex AI</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📊 Performance Comparison</h2>
+      <div class="center">
+        <img src="https://github.com/user-attachments/assets/d91e25b1-31c0-4dc5-8cac-1b81ad81a680" alt="Reps vs Model vs Actual Probabilities"/>
+      </div>
+      <div class="center">
+        <img src="https://github.com/user-attachments/assets/368fe97b-82f0-43a9-bf8a-541ef2330a4a" alt="Forecast Error Comparison"/>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🚩 Major Challenge: Non-Linear Sales Cycles</h2>
+      <ul>
+        <li><strong>Erratic Progression:</strong> Deals jumped back/forth between stages unpredictably</li>
+        <li><strong>Variable Velocity:</strong> Wildly different speeds between opportunities</li>
+        <li><strong>Data Quality:</strong> Messy sequences made pattern recognition difficult</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💡 Solution: Strategic Data Approach</h2>
+      <ul>
+        <li><strong>Curated Training Data:</strong> Filtered for clear progression patterns only</li>
+        <li><strong>Focused Learning:</strong> HMM trained on essential stage transition probabilities</li>
+        <li><strong>Validation Rigor:</strong> Separate testing on clean vs. noisy data</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🎯 Key Objectives Achieved</h2>
+      <ul>
+        <li>✅ Objective lead-closing predictor using stage-sequence behavior</li>
+        <li>✅ Strict sequence filtration with dual validation regimes</li>
+        <li>✅ Modular codebase with CLI-driven train/evaluate/score</li>
+        <li>✅ Airflow orchestration with Docker on GCP</li>
+        <li>✅ Production deployment on Vertex AI</li>
+        <li>✅ End-to-end MLOps pipeline operationalization</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🏗️ Technical Architecture</h2>
+      <div class="center">
+        <img src="https://github.com/user-attachments/assets/0f732616-f5c7-416b-972c-83cbff815eca" 
+             alt="Technical Architecture Diagram"/>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📈 Model Performance Results</h2>
+      <h4>Validation Metrics</h4>
+      <ul>
+        <li><strong>Strict Validation (6,000 leads):</strong> 86% probability accuracy</li>
+        <li><strong>All Opportunities (100,000 leads):</strong> 77% probability accuracy</li>
+      </ul>
+      <h4>Fiscal Year Performance</h4>
+      <ul>
+        <li><strong>FY23-Present:</strong> Model 33% vs. Reps 41% vs. Actual 31%</li>
+        <li><strong>FY24:</strong> Model 35% vs. Reps 46% vs. Actual 44%</li>
+        <li><strong>FY25:</strong> Model 34% vs. Reps 42% vs. Actual 36%</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>🛠️ Technical Stack</h2>
+      <ul>
+        <li><strong>Data Processing:</strong> Python, Pandas, NumPy</li>
+        <li><strong>Machine Learning:</strong> Hidden Markov Model (hmmlearn)</li>
+        <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
+        <li><strong>Deployment:</strong> Docker, GCP Vertex AI, Airflow DAGs</li>
+        <li><strong>Tools:</strong> Git, Jupyter Notebook, VS Code</li>
+      </ul>
+    </div>
+
+    <div class="section note">
+      <h2>⚠️ Disclaimer</h2>
+      <p>
+        This case study is sanitized for confidentiality; no client identifiers, schemas, or proprietary visuals are disclosed. 
+        Metrics are reported at aggregate levels only.
+      </p>
+    </div>
+
+    <div class="section center">
+      <strong>Open to discussing how this approach can drive forecasting accuracy in your organization</strong>
+    </div>
+
+    <footer>
+      © 2025 Sagar Virmani — Portfolio Case Study
+    </footer>
+  </div>
+</body>
+</html>
