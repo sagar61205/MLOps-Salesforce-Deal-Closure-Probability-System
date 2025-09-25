@@ -1,4 +1,4 @@
-<h1 align="center">MLOps‑Driven Salesforce Lead-Closure Forecast System</h1>
+<h1 align="center">MLOps based Sales Pipeline Intelligence System</h1>
 
 <h3 align="center">80% reduction in forecast error with 12-month advanced signals for 100,000+ leads</h3>
 
