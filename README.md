@@ -16,9 +16,9 @@
 ## 📊 The Business Problem
 
 <ul>
-  <li><strong>Forecast Gap:</strong> Sales confidence (41-44%) vs. actual performance (30-32%) created unreliable forecasts</li>
-  <li><strong>Manual Inconsistency:</strong> Pipeline reviews were inconsistent, hurting quota setting and resource allocation</li>
-  <li><strong>Solution Goal:</strong> Replace subjective guesses with calibrated, sequence-aware probabilities</li>
+  <li><strong>Forecast Gap:</strong> Sales confidence (41-44%) vs. actual performance (30-32%) created unreliable forecasts for sales decisions and revenue stream.</li>
+  <li><strong>Manual Inconsistency:</strong> Pipeline reviews were inconsistent, hurting quota setting, resource allocation and revenue.</li>
+  <li><strong>Solution Goal:</strong> Replace subjective guesses with calibrated, sequence-aware probabilities to improve forecast accuracy 12 months in advance to straemline early sales decisions and higher revenue growth.</li>
 </ul>
 
 ## 🎯 My Role & Solution
